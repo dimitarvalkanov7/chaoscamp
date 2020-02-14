@@ -12,6 +12,7 @@ var (
 	tmpl = template.Must(template.New("tmpl").Parse(`
 		<!DOCTYPE html><html><body><center>
 		<h1>Hello ChaosGroup!</h1>
+		<h2>Do you enjoy the presentation?</h2>
 		</center></body></html>`))
 )
 
