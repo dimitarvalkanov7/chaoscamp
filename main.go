@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	addr = flag.String("addr", ":8080", "http service address")
+	addr = flag.String("addr", ":8081", "http service address")
 	tmpl = template.Must(template.New("tmpl").Parse(`
 		<!DOCTYPE html><html><body><center>
 		<h1>Hello ChaosGroup!</h1>
